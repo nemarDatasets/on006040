@@ -1,0 +1,13 @@
+BFI_short_form.tsv
+Demographic_Information.tsv
+GradCPT_behavior_read_me.json
+README_dataset.txt
+demographic_information_read_me.json
+sub-024/eeg/*_eeg.fdt
+sub-024/eeg/*_eeg.set
+sub-024/eeg/*_eeg.json
+derivatives/sub-*/anat/*.mgz
+derivatives/sub-*/dwi/sub-*_processed/connectomes/subject_bedpostx.bedpostX/logs/*
+derivatives/sub-*/dwi/sub-*_processed/connectomes/subject_bedpostx.bedpostX/monitor
+derivatives/sub-*/dwi/sub-*_processed/connectomes/subject_bedpostx/bvals
+derivatives/sub-*/dwi/sub-*_processed/connectomes/subject_bedpostx/bvecs
