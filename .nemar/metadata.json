@@ -1,0 +1,53 @@
+{
+  "version": "2.0",
+  "dataset_id": "on006040",
+  "source": "openneuro",
+  "source_id": "ds006040",
+  "title": "Sustained Attention Task (gradCPT) Dataset using simultaneous EEG-fMRI and DTI",
+  "authors": {
+    "Younghwa Cha": {},
+    "Yeji Lee": {},
+    "Eunhee Ji": {},
+    "SoHyun Han": {},
+    "Sunhyun Min": {},
+    "Hyoungkyu Kim": {},
+    "Minseo Cho": {},
+    "Hae Seong Lee": {},
+    "Youngjai Park": {},
+    "Joon-Young Moon": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006040.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.4.0",
+  "recording_modality": [
+    "anat",
+    "beh",
+    "dwi",
+    "eeg",
+    "func"
+  ],
+  "datatypes": [
+    "anat",
+    "beh",
+    "dwi",
+    "eeg",
+    "func"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "The Institute for Basic Science of Korea (IBS, IBS-R015-Y3)"
+    },
+    {
+      "funder_name": "The National Research Foundation of Korea (NRF, RS-2023-00272652)"
+    }
+  ],
+  "acknowledgements": "The authors thank Suji Jeong and Boohee Choi (MR technical staffs) for the set-up and maintenance of the fMRI experiment. We express our gratitude to Jihyang Jun for providing the experimental codes for the gradCPT task. Our thanks also go to Qawi K. Telesford and Ting Xu for their guidance on the simultaneous EEG-fMRI recording experiment. We appreciate the valuable advice of Min-Suk Kang on the overall experimental pipeline and manuscript. We are grateful to Kyeong-Jin Tark and Yoonjung Lee for their insights on the gradCPT task. Lately, we extend our gratitude to Eun Sil Choi and her team for sharing the Korean version of the Big Five short form questionnaire."
+}
