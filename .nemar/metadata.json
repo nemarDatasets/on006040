@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on006040",
-  "source": "openneuro",
-  "source_id": "ds006040",
+  "pipeline_stage": "enriched",
   "title": "Sustained Attention Task (gradCPT) Dataset using simultaneous EEG-fMRI and DTI",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Younghwa Cha": {},
     "Yeji Lee": {},
@@ -16,38 +16,256 @@
     "Youngjai Park": {},
     "Joon-Young Moon": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006040.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
     {
       "identifier": "10.18112/openneuro.ds006040.v1.0.2",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006040",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006040",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006040",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.4.0",
-  "recording_modality": [
-    "anat",
-    "beh",
-    "dwi",
-    "eeg",
-    "func"
-  ],
-  "datatypes": [
-    "anat",
-    "beh",
-    "dwi",
-    "eeg",
-    "func"
   ],
   "funding_references": [
     {
-      "funder_name": "The Institute for Basic Science of Korea (IBS, IBS-R015-Y3)"
+      "funder_name": "Institute for Basic Science of Korea",
+      "award_number": "IBS-R015-Y3"
     },
     {
-      "funder_name": "The National Research Foundation of Korea (NRF, RS-2023-00272652)"
+      "funder_name": "National Research Foundation of Korea",
+      "award_number": "RS-2023-00272652"
     }
   ],
-  "acknowledgements": "The authors thank Suji Jeong and Boohee Choi (MR technical staffs) for the set-up and maintenance of the fMRI experiment. We express our gratitude to Jihyang Jun for providing the experimental codes for the gradCPT task. Our thanks also go to Qawi K. Telesford and Ting Xu for their guidance on the simultaneous EEG-fMRI recording experiment. We appreciate the valuable advice of Min-Suk Kang on the overall experimental pipeline and manuscript. We are grateful to Kyeong-Jin Tark and Yoonjung Lee for their insights on the gradCPT task. Lately, we extend our gratitude to Eun Sil Choi and her team for sharing the Korean version of the Big Five short form questionnaire."
+  "modalities": [
+    "anat",
+    "beh",
+    "dwi",
+    "eeg",
+    "func"
+  ],
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "721.1 GB (19017 files)"
+  ],
+  "formats": [
+    ".1",
+    ".2",
+    ".3",
+    ".4",
+    ".b",
+    ".bedpostX/logs/logs_gpu/part_0000-subpart_0000",
+    ".bedpostX/logs/logs_gpu/part_0000-subpart_0001",
+    ".bedpostX/logs/logs_gpu/part_0001-subpart_0000",
+    ".bedpostX/logs/logs_gpu/part_0001-subpart_0001",
+    ".bedpostX/logs/logs_gpu/part_0002-subpart_0000",
+    ".bedpostX/logs/logs_gpu/part_0002-subpart_0001",
+    ".bedpostX/logs/logs_gpu/part_0003-subpart_0000",
+    ".bedpostX/logs/logs_gpu/part_0003-subpart_0001",
+    ".bedpostX/logs/monitor/0",
+    ".bedpostX/logs/monitor/1",
+    ".bedpostX/logs/monitor/2",
+    ".bedpostX/logs/monitor/3",
+    ".bedpostX/logs/postproc_ID",
+    ".bedpostX/monitor",
+    ".bval",
+    ".bvec",
+    ".csv",
+    ".e178689",
+    ".e178923",
+    ".e279985",
+    ".e281057",
+    ".e284292",
+    ".e286553",
+    ".e306842",
+    ".e307363",
+    ".e312874",
+    ".e313562",
+    ".e332923",
+    ".e333731",
+    ".e343410",
+    ".e355359",
+    ".e440772",
+    ".e441178",
+    ".e451117",
+    ".e451899",
+    ".e46505",
+    ".e46832",
+    ".e489891",
+    ".e490247",
+    ".e493038",
+    ".e493692",
+    ".e513377",
+    ".e513943",
+    ".e530281",
+    ".e532873",
+    ".e533016",
+    ".e533721",
+    ".e550429",
+    ".e551084",
+    ".e553516",
+    ".e554150",
+    ".e580815",
+    ".e582138",
+    ".e585185",
+    ".e585740",
+    ".e602797",
+    ".e604073",
+    ".e607338",
+    ".e608250",
+    ".e625089",
+    ".e625954",
+    ".e630182",
+    ".e631221",
+    ".e657558",
+    ".e659762",
+    ".e660102",
+    ".e660550",
+    ".e75086",
+    ".e75382",
+    ".eddy_command_txt",
+    ".eddy_movement_rms",
+    ".eddy_outlier_map",
+    ".eddy_outlier_n_sqr_stdev_map",
+    ".eddy_outlier_n_stdev_map",
+    ".eddy_outlier_report",
+    ".eddy_parameters",
+    ".eddy_post_eddy_shell_PE_translation_parameters",
+    ".eddy_post_eddy_shell_alignment_parameters",
+    ".eddy_restricted_movement_rms",
+    ".eddy_rotated_bvecs",
+    ".eddy_values_of_all_input_parameters",
+    ".fdt",
+    ".gii",
+    ".gz",
+    ".h5",
+    ".jpg",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".mgz",
+    ".mif",
+    ".nii",
+    ".o178689",
+    ".o178923",
+    ".o279985",
+    ".o281057",
+    ".o284292",
+    ".o286553",
+    ".o306842",
+    ".o307363",
+    ".o312874",
+    ".o313562",
+    ".o332923",
+    ".o333731",
+    ".o343410",
+    ".o355359",
+    ".o440772",
+    ".o441178",
+    ".o451117",
+    ".o451899",
+    ".o46505",
+    ".o46832",
+    ".o489891",
+    ".o490247",
+    ".o493038",
+    ".o493692",
+    ".o513377",
+    ".o513943",
+    ".o530281",
+    ".o532873",
+    ".o533016",
+    ".o533721",
+    ".o550429",
+    ".o551084",
+    ".o553516",
+    ".o554150",
+    ".o580815",
+    ".o582138",
+    ".o585185",
+    ".o585740",
+    ".o602797",
+    ".o604073",
+    ".o607338",
+    ".o608250",
+    ".o625089",
+    ".o625954",
+    ".o630182",
+    ".o631221",
+    ".o657558",
+    ".o659762",
+    ".o660102",
+    ".o660550",
+    ".o75086",
+    ".o75382",
+    ".png",
+    ".set",
+    ".sh",
+    ".tck",
+    ".topup_log",
+    ".tsv",
+    ".txt",
+    ".yml"
+  ],
+  "description": "This dataset comprises simultaneous EEG-fMRI and diffusion-weighted imaging data collected from 28 healthy adults (16 female; age range 19-42 years, mean age 27.34±6.58 years; 23 right-handed) performing a sustained attention task (gradCPT) along with resting state, checkerboard, and imagery tasks. The multimodal neuroimaging acquisition combines 64-channel EEG recordings with 3T MRI data to investigate neural correlates of sustained attention. Both raw and preprocessed data are provided, enabling comprehensive analysis of brain activity across multiple imaging modalities.",
+  "methods_description": "Data were acquired from 28 healthy adults (16 female; age range 19-42 years, mean age 27.34±6.58 years) using simultaneous EEG-fMRI recording. fMRI and DWI data were collected on a 3T Siemens Magnetom Prisma scanner, while EEG was recorded using 64 channels (Brain Product BrainCap MR with Multirodes). Participants performed multiple tasks including resting state (eyes open and closed), checkerboard stimulation (15Hz), gradCPT sustained attention task, and imagery task. Structural MRI images were defaced to ensure participant anonymity.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "DTI"
+    },
+    {
+      "term": "sustained attention"
+    },
+    {
+      "term": "simultaneous EEG-fMRI"
+    },
+    {
+      "term": "diffusion-weighted imaging"
+    },
+    {
+      "term": "gradCPT task"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "structural MRI"
+    },
+    {
+      "term": "checkerboard stimulation"
+    },
+    {
+      "term": "imagery task"
+    },
+    {
+      "term": "healthy adults"
+    }
+  ],
+  "source_hash": "e49cc267166d2417e06a67352256517bf6b2a28a25b8760d453b3611c688c79e"
 }
