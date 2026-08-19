@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Sustained Attention Task (gradCPT) Dataset using simultaneous EEG-fMRI and DTI",
+  "description": "This dataset comprises simultaneous EEG, fMRI, and diffusion-weighted imaging (DWI) recordings from 28 healthy adults performing a sustained attention gradual-onset continuous performance task (gradCPT), along with resting-state, checkerboard, and imagery task data. The dataset supports multimodal investigation of sustained attention and its neural correlates using combined electrophysiological, hemodynamic, and structural connectivity measures.",
+  "methods_description": "Data were acquired using a 3T Siemens Magnetom Prisma MRI scanner for fMRI and DWI, and a 64-channel Brain Products BrainCap MR with Multirodes for simultaneous EEG recording. Tasks included resting state (eyes open and closed), a checkerboard visual stimulation task (15Hz), the gradCPT sustained attention task, and an imagery task.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,6 +18,34 @@
     "Youngjai Park": {},
     "Joon-Young Moon": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "Diffusion Tensor Imaging",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D056324"
+    },
+    {
+      "term": "sustained attention"
+    },
+    {
+      "term": "gradCPT"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "EEG-fMRI"
+    },
+    {
+      "term": "resting state"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006040.v1.0.0",
@@ -48,6 +78,7 @@
       "award_number": "RS-2023-00272652"
     }
   ],
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "beh",
@@ -55,7 +86,6 @@
     "eeg",
     "func"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
     "721.1 GB (19017 files)"
   ],
@@ -218,31 +248,6 @@
     ".tsv",
     ".txt",
     ".yml"
-  ],
-  "description": "This dataset comprises simultaneous EEG-fMRI and diffusion-weighted imaging (DWI) recordings from 28 healthy adults performing a sustained attention task (gradCPT) along with resting state, checkerboard, and imagery tasks. The multimodal neuroimaging data were acquired using 64-channel EEG and 3T MRI, providing complementary measures of brain activity and structural connectivity. Both raw and preprocessed data are provided, enabling investigation of attention mechanisms and their neural correlates across multiple imaging modalities.",
-  "methods_description": "EEG was recorded using 64 channels (Brain Product BrainCap MR with Multirodes) during simultaneous fMRI and DWI acquisition on a 3T Siemens Magnetom Prisma scanner. Participants performed resting state (eyes open and closed), checkerboard (15Hz), gradCPT, and imagery tasks.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "fMRI"
-    },
-    {
-      "term": "diffusion-weighted imaging"
-    },
-    {
-      "term": "sustained attention"
-    },
-    {
-      "term": "simultaneous EEG-fMRI"
-    },
-    {
-      "term": "gradCPT task"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    }
   ],
   "source_hash": "e49cc267166d2417e06a67352256517bf6b2a28a25b8760d453b3611c688c79e"
 }
