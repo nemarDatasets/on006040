@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Sustained Attention Task (gradCPT) Dataset using simultaneous EEG-fMRI and DTI",
-  "description": "This dataset comprises simultaneous EEG, fMRI, and diffusion-weighted imaging (DWI) recordings from 28 healthy adults performing a sustained attention gradual-onset continuous performance task (gradCPT), along with resting-state, checkerboard, and imagery task data. The dataset supports multimodal investigation of sustained attention and its neural correlates using combined electrophysiological, hemodynamic, and structural connectivity measures.",
-  "methods_description": "Data were acquired using a 3T Siemens Magnetom Prisma MRI scanner for fMRI and DWI, and a 64-channel Brain Products BrainCap MR with Multirodes for simultaneous EEG recording. Tasks included resting state (eyes open and closed), a checkerboard visual stimulation task (15Hz), the gradCPT sustained attention task, and an imagery task.",
+  "description": "This dataset contains simultaneous EEG-fMRI recordings, diffusion-weighted imaging, and behavioral data from 28 healthy adults performing a gradual-onset continuous performance task (gradCPT) that probes sustained attention. Resting-state (eyes open and closed), 15 Hz checkerboard, and imagery tasks are also included. Raw data and preprocessed derivatives are provided.",
+  "methods_description": "fMRI and DWI data were acquired on a 3T Siemens Magnetom Prisma scanner. EEG was recorded simultaneously with a 64-channel Brain Products BrainCap MR with Multirodes. Participants completed resting-state, checkerboard, gradCPT, and imagery tasks. Structural MRI images were defaced to protect anonymity.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -26,9 +26,7 @@
       "term": "fMRI"
     },
     {
-      "term": "Diffusion Tensor Imaging",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D056324"
+      "term": "simultaneous EEG-fMRI"
     },
     {
       "term": "sustained attention"
@@ -37,13 +35,12 @@
       "term": "gradCPT"
     },
     {
-      "term": "multimodal neuroimaging"
+      "term": "diffusion tensor imaging"
     },
     {
-      "term": "EEG-fMRI"
-    },
-    {
-      "term": "resting state"
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     }
   ],
   "related_identifiers": [
@@ -87,7 +84,7 @@
     "func"
   ],
   "sizes": [
-    "721.1 GB (19017 files)"
+    "672 GB (19017 files)"
   ],
   "formats": [
     ".1",
